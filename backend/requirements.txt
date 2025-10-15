@@ -6,3 +6,4 @@ faiss-cpu
 openai
 python-dotenv
 PyPDF2
+langchain_community
