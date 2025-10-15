@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Adjust if backend runs on a different port
-const API_URL = process.env.API_URL || "http://localhost:5000";
+const API_URL = process.env.API_URL;
 
 export const uploadFile = async (file) => {
   const formData = new FormData();
